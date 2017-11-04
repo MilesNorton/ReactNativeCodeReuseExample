@@ -20,7 +20,6 @@ HelpButton.propTypes = {
 };
 
 const mapStateToProps = store => ({
-    helpRequests: getHelpRequestsNumber(store),
 });
 
 export default connect(mapStateToProps, { helpRequested })(HelpButton)

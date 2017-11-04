@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import HelpButtonView from './HelpButtonView';
+// import HelpButtonView from './HelpButtonView';
 
 export default class AbstractHelpButtonContainer extends React.Component {
     constructor(props) {
